@@ -134,7 +134,7 @@
     line-height: 50px !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
@@ -199,3 +199,40 @@ ul.memoria-menu-secciones{
   margin-top: 10px;
 }
 
+p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 200;
+  
+}
+
+a.texto-breadcrum{
+
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 200;
+
+}
+.breadcrumb-item{
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 200;
+
+}
+
+
+
+@media (max-width: 576px) {  
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;}
+}
