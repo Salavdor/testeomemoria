@@ -222,17 +222,59 @@ a.texto-breadcrum{
 
 
 
-@media (max-width: 576px) {  
-  .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;}
+.etiqueta-tipo-archiuvo{
+  position: absolute;
+  width: 100px;
 }
+
+.badge-secondary{
+  width: 70px;
+  height: 70px;
+}
+
+.img-responsiva{
+  object-fit: contain;
+}
+
+.carta-lista{
+  width: 100%;
+}
+
+ 
+
+@media (min-width: 576px) and (max-width:767px) {
+  .imagen-tabla-movil{
+    min-height: 130px; 
+    min-width: 100%;
+  }
+ }
+ 
+ @media (max-width:575px) {
+  .imagen-tabla-tablet{
+    min-height: 205px; 
+    min-width: 100%;
+  }
+ }
+
+
+
+
+ @media (max-width: 576px) {
+  .card-columns {
+    column-count: 2;
+  }  
+}
+
+@media (min-width: 767px) {
+  .card-columns {
+    column-count: 3;
+  }  
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 4;
+  }  
+}
+
+
